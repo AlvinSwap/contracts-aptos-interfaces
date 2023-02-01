@@ -1,0 +1,17 @@
+[package]
+name = 'math'
+version = '0.1.0'
+license = "MIT"
+upgrade_policy = "compatible"
+
+[dependencies.AptosFramework]
+git = 'https://github.com/aptos-labs/aptos-core.git'
+rev = 'main'
+subdir = 'aptos-move/framework/aptos-framework'
+
+
+[addresses]
+samm ="0x7304e81e4bf77c2232a65f364e5b5323c1d34f05171a9777e1553ef22569fd06"
+
+[dependencies.number]
+local = "../number/"
